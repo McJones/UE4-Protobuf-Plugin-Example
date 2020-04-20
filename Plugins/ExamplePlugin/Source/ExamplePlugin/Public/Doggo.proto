@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Doggo
+{
+    string name = 1;
+    int32 age = 2;
+    float goodBoyness = 3;
+}
+
+message Kennel
+{
+    repeated Doggo goodBoys = 1;
+    string name = 2;
+}
